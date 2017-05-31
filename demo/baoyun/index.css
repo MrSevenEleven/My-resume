@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font-family:"微软雅黑";
+	}
+html,body{
+	width:100%;
+	min-width:1130px;
+	}
+#wrapper{
+	width:100%;
+	}
+#top{
+	background: url(images/top-bg.jpg) top center no-repeat;
+	height:86px;
+	width:100%;
+	}
+#top li{
+	float:left;
+	width:40px;
+	list-style:none;
+	margin-right:70px;
+	}
+#top ul {
+    float: left;
+    margin-left: 35%;
+	}
+#top ul a{
+	line-height:80px;
+	font-size:20px;
+	text-decoration:none;
+	color:#515151;
+	}
+#top a:hover{
+	text-decoration:underline;
+	color:#0d57bc;
+	}
+#top form {
+    border: 1px solid #999999;
+    border-radius: 15px;
+    float: left;
+    height: 30px;
+    margin: 27px 10px 0;
+    width: 175px;
+	position:relative;
+	}
+#top form input{
+	margin-left:15px;	
+	width:134px;
+	height:30px;
+	border:none;
+	background:rgba(236,202,248,0.1);
+	}
+#top form img{
+	position:absolute;
+	right:20px;
+	top:-1px;
+	cursor:pointer;
+	}
+#registor {
+    float: left;
+    line-height: 86px;
+    margin-left: 40px;
+    width: 80px;
+	}
+#top #registor a{
+	text-decoration:none;
+	font-size:16px;
+	}
+#top .login{
+	border-right:1px solid #000;
+	padding-right:6px;
+	}
+#main-pic{
+	width:100%;
+	background:url(images/main.jpg) top center no-repeat;
+	height:620px;
+	}
+#main-pic a{
+	width:100%;
+	height:620px;
+	}
+#list-wrapper{
+	width:1180px;
+	margin:80px auto 0;
+	}
+#rec-title{
+	display:block;
+	text-align:center;
+	margin-bottom:20px;	
+	}
+.liststyle ul li{
+	list-style:none;
+	margin:0 20px 40px 0;
+	float:left;	
+	}
+#wrapper ul .lastlist{
+	margin-right:0;
+	padding-right:0;
+	}
+.liststyle ul li a{
+	text-decoration:none;	
+	}
+.lesson-img {
+	margin-bottom:20px;	
+	}
+.lesson h4{
+	color:#6e6e6e;
+	margin-left:-7px;
+	}
+.lesson-info{
+	margin-top:10px;
+	font-size:10px;
+	color:#a1a1a1;
+	}
+.lesson-info .read-number{
+	border-right:#cccccc 1px solid;
+	padding-left:0;
+	}
+.lesson-info span{
+	padding:0 10px;
+	}	
+ul{
+	overflow:hidden;
+	}
+#os-title {
+    border-left: 2px solid #519dfb;
+    margin: 80px 0 12px 0;
+    padding-left:20px;
+    position: relative;
+	
+}
+.classification {
+    left:840px;
+    position: absolute;
+    bottom:0;
+}
+.classification a{
+    margin-left:45px;
+	text-decoration:none;
+	font-size:16px;
+	color:#747474;
+}
+#excellent-cor{
+	color:#59a6f7;
+	}
+#newest-course{
+	display:none;
+	}
+#all-course{
+	display:none;
+	}
+#os-list{
+	border-top:1px solid #cccccc;
+	position:relative;
+	}
+#os-list ul{
+	margin:40px 0;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+#teacher-title{
+	margin-top:595px;
+	text-align:center;
+	border-bottom:1px solid #cccccc;
+	padding-bottom:10px;
+	margin-bottom:40px;
+	}
+#teacher-list li{
+	height:100px;
+	float:left;
+	padding-left:20px;
+	list-style:none;
+	margin-bottom:80px;
+	}
+.teacher-info{
+	float:left;
+	margin:25px 47px 0 20px;
+	}
+.teacher-img{
+	float:left;
+	}
+.teacher-info span{
+	display:block;
+	color:#000;
+	font-size:14px;
+	}
+#int-wrapper{
+	background-color:#f9f9f4;
+	padding-bottom:60px;
+	}
+#interaction{
+	width:1180px;
+	padding-top:40px;
+	margin:0 auto;
+	}
+#int-title{
+	text-align:center;
+	margin-bottom:20px;
+	}
+#int-list li{
+	float:left;
+	padding:20px 0;
+	border-bottom:1px solid #cccccc;
+	list-style:none;
+	width:480px;
+	margin-right:220px;
+	}
+.avatar{
+	float:left;
+	margin-right:20px;
+	}
+.comment{
+	float:left;
+	width:378px;
+	position:relative;
+	}
+.comment span{
+	font-size:14px;
+	color:#7f7f7e;
+	display:block;
+	margin-top:15px;
+	}
+.comment span b{
+	color:#333333;
+	}
+.comment .object{
+	color:#70abfa;
+	margin-left: -6px;
+	}
+.comment .time{
+	position:absolute;
+	top:0;
+	right:0;
+	}
+#blue{
+	height:18px;
+	margin-top:80px;
+	background-color:#519dfb;
+	}
+#bottom{
+	height:145px;
+ 	background-color:#323232;
+	color:#cccccc;
+	text-align:center;
+	}
+#company-info{
+	font-size:14px;
+	display:block;
+	padding-top:50px;
+	}
+#version{
+	font-size:14px;
+	display:block;
+	margin-top:17px;
+	}
